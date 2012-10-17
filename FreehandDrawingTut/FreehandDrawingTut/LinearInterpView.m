@@ -10,11 +10,57 @@
 @implementation LinearInterpView
 {
     UIBezierPath *path; // (3)
+    UISegmentedControl *segmentedControl;
 }
 
 - (IBAction)clearPath:(id)sender {
-    path = [UIBezierPath bezierPath];
-    [path setLineWidth:2.0];
+    [path removeAllPoints];
+    [self setNeedsDisplay];
+}
+- (IBAction)setStroke:(id)sender {
+    switch ([sender selectedSegmentIndex])
+    {
+        case 0:
+        {
+            [path setLineWidth:1.0];
+            break;
+        }
+        case 1:
+        {
+            [path setLineWidth:2.0];
+            break;
+        }
+        case 2:
+        {
+            [path setLineWidth:3.0];
+            break;
+        }
+        case 3:
+        {
+            [path setLineWidth:4.0];
+            break;
+        }
+        case 4:
+        {
+            [path setLineWidth:5.0];
+            break;
+        }
+        case 5:
+        {
+            [path setLineWidth:6.0];
+            break;
+        }
+        case 6:
+        {
+            [path setLineWidth:7.0];
+            break;
+        }
+        case 7:
+        {
+            [path setLineWidth:8.0];
+            break;
+        }
+    };
     [self setNeedsDisplay];
 }
 

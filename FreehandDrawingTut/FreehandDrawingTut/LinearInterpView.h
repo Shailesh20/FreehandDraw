@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface LinearInterpView : UIView
-
+- (IBAction)clearPath:(id)sender;
+- (IBAction)setStroke:(id)sender;
 @end
