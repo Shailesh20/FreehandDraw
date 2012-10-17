@@ -18,6 +18,7 @@
 		BFAF900D162EA7950057C8BA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFAF900C162EA7950057C8BA /* Default-568h@2x.png */; };
 		BFAF9010162EA7950057C8BA /* thcmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAF900F162EA7950057C8BA /* thcmViewController.m */; };
 		BFAF9013162EA7950057C8BA /* thcmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFAF9011162EA7950057C8BA /* thcmViewController.xib */; };
+		BFAF901E162EA99D0057C8BA /* LinearInterpView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAF901D162EA99D0057C8BA /* LinearInterpView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		BFAF900E162EA7950057C8BA /* thcmViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = thcmViewController.h; sourceTree = "<group>"; };
 		BFAF900F162EA7950057C8BA /* thcmViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = thcmViewController.m; sourceTree = "<group>"; };
 		BFAF9012162EA7950057C8BA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/thcmViewController.xib; sourceTree = "<group>"; };
+		BFAF901C162EA99D0057C8BA /* LinearInterpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinearInterpView.h; path = FreehandDrawingTut/LinearInterpView.h; sourceTree = "<group>"; };
+		BFAF901D162EA99D0057C8BA /* LinearInterpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LinearInterpView.m; path = FreehandDrawingTut/LinearInterpView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,8 @@
 		BFAF8FE7162EA7950057C8BA = {
 			isa = PBXGroup;
 			children = (
+				BFAF901C162EA99D0057C8BA /* LinearInterpView.h */,
+				BFAF901D162EA99D0057C8BA /* LinearInterpView.m */,
 				BFAF8FFC162EA7950057C8BA /* FreehandDrawingTut */,
 				BFAF8FF5162EA7950057C8BA /* Frameworks */,
 				BFAF8FF3162EA7950057C8BA /* Products */,
@@ -177,6 +182,7 @@
 				BFAF9003162EA7950057C8BA /* main.m in Sources */,
 				BFAF9007162EA7950057C8BA /* thcmAppDelegate.m in Sources */,
 				BFAF9010162EA7950057C8BA /* thcmViewController.m in Sources */,
+				BFAF901E162EA99D0057C8BA /* LinearInterpView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
