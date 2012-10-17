@@ -88,11 +88,11 @@
 		BFAF8FFC162EA7950057C8BA /* FreehandDrawingTut */ = {
 			isa = PBXGroup;
 			children = (
+				BFAF9011162EA7950057C8BA /* thcmViewController.xib */,
 				BFAF9005162EA7950057C8BA /* thcmAppDelegate.h */,
 				BFAF9006162EA7950057C8BA /* thcmAppDelegate.m */,
 				BFAF900E162EA7950057C8BA /* thcmViewController.h */,
 				BFAF900F162EA7950057C8BA /* thcmViewController.m */,
-				BFAF9011162EA7950057C8BA /* thcmViewController.xib */,
 				BFAF8FFD162EA7950057C8BA /* Supporting Files */,
 			);
 			path = FreehandDrawingTut;

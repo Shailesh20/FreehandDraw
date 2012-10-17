@@ -11,6 +11,13 @@
 {
     UIBezierPath *path; // (3)
 }
+
+- (IBAction)clearPath:(id)sender {
+    path = [UIBezierPath bezierPath];
+    [path setLineWidth:2.0];
+    [self setNeedsDisplay];
+}
+
 - (id)initWithCoder:(NSCoder *)aDecoder // (1)
 {
     if (self = [super initWithCoder:aDecoder])
